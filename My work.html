@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: rgb(5, 5, 46);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(36, 36, 102);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(120, 120, 212);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.2rem;
+        }
+        
+        .leftSection .buttons {
+            padding: 40px 0;
+        }
+        .leftSection .btn {
+            padding: 10px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 90%;
+        }
+
+        .purple {
+            color: rgb(148, 70, 221);
+        }
+
+        #element {
+            color: rgb(148, 70, 221);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #0e0e1a;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+             color: grey;
+             padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Hammad's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <Section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple"> Hammad </span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visite Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="kj.png.png" alt="">
+            </div>
+        </Section>
+        <hr>
+        <Section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Past Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="ht.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium cupiditate fugit.
+                        Assumenda illo alias amet impedit est delectus sapiente accusamus nostrum nobis?
+
+                    </div>
+                </div>   <div class="vertical">
+                    <img class="image-top" src="cs.png.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium cupiditate fugit.
+                        Assumenda illo alias amet impedit est delectus sapiente accusamus nostrum nobis?
+
+                    </div>
+                </div>   <div class="vertical">
+                    <img class="image-top" src="kl.png.png" alt="">
+                    <div class="vertical-title">
+                        JS Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium cupiditate fugit.
+                        Assumenda illo alias amet impedit est delectus sapiente accusamus nostrum nobis?
+
+                    </div>
+                </div>   <div class="vertical">
+                    <img class="image-top" src="ui.png.png" alt="">
+                    <div class="vertical-title">
+                        UI UX Designer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium cupiditate fugit.
+                        Assumenda illo alias amet impedit est delectus sapiente accusamus nostrum nobis?
+
+                    </div>
+                </div>   <div class="vertical">
+                    <img class="image-top" src="bo.png.png" alt="">
+                    <div class="vertical-title">
+                        Boot S Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium cupiditate fugit.
+                        Assumenda illo alias amet impedit est delectus sapiente accusamus nostrum nobis?
+
+                    </div>
+                
+               
+            </div>
+        </Section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-fist">
+                <h3>Hammad's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+             hammadsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI UX Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
